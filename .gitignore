@@ -1,0 +1,5 @@
+data
+null_text_embeddings_coco
+*.pt
+**/__pycache__/
+**/**/__pycache__/
