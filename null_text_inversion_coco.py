@@ -19,7 +19,7 @@ if __name__=="__main__":
     parser.add_argument('--task', type=str,default='embeddings_generation')
     parser.add_argument('--device', type=str,default='cuda:1')
     parser.add_argument('--idx_s', type=int,default=0)
-    parser.add_argument('--idx_e', type=int,default=10)
+    parser.add_argument('--idx_e', type=int,default=14400)
     parser.add_argument('--use_mask', type=bool, default=False)
     #parser.add_argument('--task', type=str,default='embeddings_generation')
     args = parser.parse_args()    

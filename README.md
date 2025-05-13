@@ -43,13 +43,13 @@ data/
 1. Generate null text embeddings:
 
     ```bash
-    python null_text_inversion_coco.py --data_dir=path_to_data --task=embddings_generation
+    python null_text_inversion_coco.py --data_dir="./data" --task="embddings_generation"
     ```
 
 2. Object removal:
 
     ```bash
-    python null_text_inversion_coco.py --data_dir=path_to_data --task=object_removal
+    python null_text_inversion_coco.py --data_dir="./data" --task="object_removal"
     ```
 
 ---
@@ -68,5 +68,5 @@ data/
 
 - **Calculate CLIP similarity:**
     ```bash
-    python evaluation/evaluate.py --task=cs --coco_output_path="null_text_embeddings_coco/images" --coco_labels_file="data/annotations/instances_val2017.json"
+    python evaluation/evaluate.py --task=cs --coco_output_path="./null_text_embeddings_coco/images" --coco_labels_file="data/annotations/instances_val2017.json"
     ```
