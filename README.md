@@ -43,7 +43,7 @@ data/
 1. Generate null text embeddings:
 
     ```bash
-    python null_text_inversion_coco.py --data_dir="./data" --task="embddings_generation"
+    python null_text_inversion_coco.py --data_dir="./data" --task="embeddings_generation"
     ```
 
 2. Object removal:
